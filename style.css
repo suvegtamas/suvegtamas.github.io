@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("/images/background.png");
+  background-size: cover;
+  background-position: center;
+  font-family: sans-serif;
+  
+}
+h1 {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 80px;
+    color: white;
+    opacity: 0.5;
+}
+
+
+.container1{
+  
+justify-content: center;
+  text-align: center;
+  margin: 10px;
+  font-size: 30px;
+  display: flex;
+  padding-top: 10px;
+}
+.container2 {
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    font-size: 30px;
+}
+.square1{
+    background-color: rgb(54, 54, 54);
+    color: white;
+    justify-content: center;
+    height: 250px;
+    width: 250px;
+    padding-top: 100px;
+    text-align: center;
+    margin: 10px;
+    border-radius: 50%;
+    align-items: center;
+    cursor: pointer;
+    opacity: 0.8;
+    padding-right: 15px;
+    font-weight: bold;
+   
+}
+.square2 {
+    background-color: rgb(54, 54, 54);
+    color: white;
+    justify-content: center;
+    height: 250px;
+    width: 250px;
+    padding-top: 100px;
+    text-align: center;
+    margin: 10px;
+    border-radius: 50%;
+    align-items: center;
+    cursor: pointer;
+    opacity: 0.8;
+    font-weight: bold;
+   
+}
+.square2:hover {
+    transition: all 0.6s ease-in;
+    opacity: 1;
+    background-color: rgb(247, 103, 103);
+    color: black;
+}
+.square1:hover {
+    opacity: 1;
+    transition: all 0.6s ease-in;
+    background-color: rgb(133, 207, 126);
+    color: black;
+}
+.kocka2:hover {
+    opacity: 1;
+    transition: all 0.6s ease-in;
+    background-color: rgb(188, 170, 253);
+    color: black;
+}
+.kocka1:hover {
+    opacity: 1;
+    transition: all 0.6s ease-in;
+    background-color: rgb(247, 152, 64);
+    color: black;
+
+}
+.kocka1 {
+  
+  background-color: rgb(54, 54, 54);
+  color: white;
+  justify-content: center;
+  height: 250px;
+  width: 250px;
+  padding-top: 100px;
+  text-align: center;
+  margin: 10px;
+  border-radius: 50%;
+  align-items: center;
+  cursor: pointer;
+  opacity: 0.8;
+  font-weight: bold;
+  
+
+}
+.kocka2 {
+  background-color: rgb(54, 54, 54);
+  color: white;
+  justify-content: center;
+  height: 250px;
+  width: 250px;
+  padding-top: 100px;
+  text-align: center;
+  margin: 10px;
+  border-radius: 50%;
+  align-items: center;
+  cursor: pointer;
+  font-weight: bold;
+  
+ 
+    
+  
+
+
